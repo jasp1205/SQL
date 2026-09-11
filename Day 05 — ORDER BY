@@ -1,0 +1,4 @@
+-- Display employees from highest to lowest salary
+SELECT employee_name, salary
+FROM employees
+ORDER BY salary DESC;
