@@ -1,0 +1,5 @@
+-- Find employees from IT department earning more than 50000
+SELECT employee_name, salary, department
+FROM employees
+WHERE department = 'IT'
+  AND salary > 50000;
