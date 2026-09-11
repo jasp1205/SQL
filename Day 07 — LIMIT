@@ -1,0 +1,5 @@
+-- Find the 5 highest-paid employees
+SELECT employee_name, salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 5;
